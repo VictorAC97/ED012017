@@ -1,0 +1,33 @@
+int *p; //declaracao de um ponteiro
+
+a= *p  // a recebe o conteudo de *p
+
+//------------------------------------------
+
+//funcao que calcula media
+
+float calcula_media(float ventor[],int tamanho);
+
+
+float multiplica(float a,float b);
+
+//------------------------------------------
+
+Alocação dinâmica
+
+  -A area de codigo que nos escrevemos é a "text" (slide)
+  
+  -"Stack" é a pilha.
+  (O endereço do stack vai descrescendo a media que voce chama funções, sendo que ele começa no topo)
+  
+  -Alocação dinâmica de memoria é o "Heap"
+  
+  -As Variaveis globais ficam no "Data" (slide)
+
+Função sizeof e malloc:
+
+  tipo *ponteiro = (tipo*)malloc(n*sizeof(tipo));
+
+  tipo **ponteiro = (tipo**)malloc(n*sizeof(tipo));
+  
+  free(ponteiro);
