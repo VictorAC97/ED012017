@@ -8,9 +8,9 @@ int j;
 int vetor[n];
 int matriz[3][4];
 
-  //armazenamento de dados no vetor
-
     printf("Exercicio 1\n");
+  
+   //armazenamento de dados no vetor
   for(i=0;i<n;i++){
     printf("Insira o valor %d: ",i);
     scanf("%d",&vetor[i]);
@@ -25,7 +25,8 @@ int matriz[3][4];
     printf("Exercicio 2\n");
 
   printf("\n A matriz e:\n");
-
+  
+  //armazenamento de dados na matriz
   for(i=0;i<3;i++){
       for(j=0;j<4;j++){
         printf("Insira o valor %d,%d : ",i,j);
