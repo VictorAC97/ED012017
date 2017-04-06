@@ -2,7 +2,7 @@
     Nome: Victor Alves de Carvalho
     Matricula: 16/0147140
     Nome: Pedro Felipe de Oliveira Ribeiro
-    Matrícula:160141168
+    MatrÃ­cula:16/0141168
     Estrutura de Dados - Turma B  2017/01 */
 
 /*DIRETIVAS DE PRE-PROCESSAMENTO PARA A FUNCAO SYSTEM("CLS")*/
@@ -594,7 +594,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                 case(0)://AGUA
                         printf("%s \n",msg);
                         tiroFalho_j1++;
-                        mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ1[l][c] = 10; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -602,7 +602,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg2);
                         pontos_j1++;
                         botes_j1++;
-                        mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ1[l][c] = 1; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -610,7 +610,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg3);
                         pontos_j1++;
                         navio_j1++;
-                        mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ1[l][c] = 2; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -618,7 +618,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg4);
                         pontos_j1++;
                         encouracado_j1++;
-                        mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ1[l][c] = 4; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -626,7 +626,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg5);
                         pontos_j1++;
                         portaAvioes_j1++;
-                        mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ1[l][c] = 5; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -641,35 +641,35 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                                 if(mapa2[l][c] == 0){
                                     printf("%s \n",msg);
                                     tiroFalho_j1++;
-                                    mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ1[l][c] = 10; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa2[l][c] == 1){
                                     printf("%s \n",msg2);
                                     pontos_j1++;
                                     botes_j1++;
-                                    mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ1[l][c] = 1; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa2[l][c] == 2){
                                     printf("%s \n",msg3);
                                     pontos_j1++;
                                     navio_j1++;
-                                    mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ1[l][c] = 2; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa2[l][c] == 4){
                                     printf("%s \n",msg4);
                                     pontos_j1++;
                                     encouracado_j1++;
-                                    mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ1[l][c] = 4; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa2[l][c] == 5){
                                     printf("%s \n",msg5);
                                     pontos_j1++;
                                     portaAvioes_j1++;
-                                    mapa2[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa2[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ1[l][c] = 5; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                         break;
@@ -697,7 +697,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                 case(0)://AGUA
                         printf("%s \n",msg);
                         tiroFalho_j2++;
-                        mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ2[l][c] = 10; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -705,7 +705,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg2);
                         pontos_j2++;
                         botes_j2++;
-                        mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ2[l][c] = 1; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -713,7 +713,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg3);
                         pontos_j2++;
                         navio_j2++;
-                        mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ2[l][c] = 2; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -721,7 +721,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg4);
                         pontos_j2++;
                         encouracado_j2++;
-                        mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ2[l][c] = 4; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -729,7 +729,7 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                         printf("%s \n",msg5);
                         pontos_j2++;
                         portaAvioes_j2++;
-                        mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                        mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                         historicoJ2[l][c] = 5; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                         break;
 
@@ -744,35 +744,35 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
                                 if(mapa1[l][c] == 0){
                                     printf("%s \n",msg);
                                     tiroFalho_j2++;
-                                    mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ2[l][c] = 10; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa1[l][c] == 1){
                                     printf("%s \n",msg2);
                                     pontos_j2++;
                                     botes_j2++;
-                                    mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ2[l][c] = 1; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa1[l][c] == 2){
                                     printf("%s \n",msg3);
                                     pontos_j2++;
                                     navio_j2++;
-                                    mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ2[l][c] = 2; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa1[l][c] == 4){
                                     printf("%s \n",msg4);
                                     pontos_j2++;
                                     encouracado_j2++;
-                                    mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ2[l][c] = 4; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                                 if(mapa1[l][c] == 5){
                                     printf("%s \n",msg5);
                                     pontos_j2++;
                                     portaAvioes_j2++;
-                                    mapa1[l][c] = 9; //9 é o numero escolhido para representar um local atingido no mapa
+                                    mapa1[l][c] = 9; //9 Ã© o numero escolhido para representar um local atingido no mapa
                                     historicoJ2[l][c] = 5; //VALOR ESCOLHIDO PARA CONVERTER EM SIMBOLO ASCII NA FUNCAO DE HISTORICO
                                 }
                         break;
@@ -797,8 +797,8 @@ void jogar(int mapa1[m][n],int mapa2[m][n]){
     }//FIM WHILE
 
         //PORCENTAGEM DE ACERTO DOS JOGADORES   //TA BUGADO
-        float porcentagem_j1 = 100*(float)(pontos_j1)/23;  //23 é o total de alvos no jogo
-        float porcentagem_j2 = 100*(float)(pontos_j2)/23;  //23 é o total de alvos no jogo
+        float porcentagem_j1 = 100*(float)(pontos_j1)/23;  //23 Ã© o total de alvos no jogo
+        float porcentagem_j2 = 100*(float)(pontos_j2)/23;  //23 Ã© o total de alvos no jogo
 
             //DETERMINA O VENCEDOR E O PERDEDOR AO FINAL DE TODAS AS RODADAS
                 if(pontos_j1 > pontos_j2 || porcentagem_j1 > porcentagem_j2){
