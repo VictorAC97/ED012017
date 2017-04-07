@@ -6,7 +6,7 @@ void geraNumeros(void);
 void pilha(void);
 void push(int x);
 
-    typedef struct pilha{
+    typedef struct{
         int top;
         int s[10];
     }Pilha;
