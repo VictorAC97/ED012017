@@ -2,7 +2,7 @@
     Nome: Victor Alves de Carvalho
     Matricula: 16/0147140
     Nome: Pedro Felipe de Oliveira Ribeiro
-    Matrícula:16/0141168
+    MatrÃ­cula:16/0141168
     Estrutura de Dados - Turma B  2017/01 */
 
 /*DIRETIVAS DE PRE-PROCESSAMENTO PARA A FUNCAO SYSTEM("CLS")*/
@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 //ListaTelefonica.h
 struct usuario{
