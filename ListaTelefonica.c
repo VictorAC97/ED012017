@@ -212,14 +212,14 @@ int mostrarLista(lista *li,int count){
         printf("============================================================\n");
         printf("\t\t\t  CONTATOS\n");
         printf("============================================================\n");
-        printf("CONTATOS: %d\n",count);
-        printf("\n");
         for(elem *p = *li;p != NULL;p = p->prox){
             printf("NOME: %s\n",p->dados.nome);
             printf("E-MAIL: %s\n",p->dados.email);
             printf("TELEFONE: %s\n",p->dados.tel);
             printf("------------------------------------------------------------\n");
         }
+        printf("\n");
+        printf("CONTATOS: %d\n",count);	    
     }
     return 1;
 }
